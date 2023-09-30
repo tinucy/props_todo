@@ -1,9 +1,9 @@
 import React from "react";
-function Dog({ name, age }) {
+function Dog(props) {
   return (
     <div>
-      <p>Dog Name: {name}</p>
-      <p>Age: {age}</p>
+      <p>Dog Name: {props.name}</p>
+      <p>Age: {props.age}</p>
     </div>
   );
 }
