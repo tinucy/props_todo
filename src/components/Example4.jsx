@@ -2,9 +2,8 @@ import React from "react";
 
 function Tasks(props) {
   const { children } = props;
-  return;
 
-  <ul>{children}</ul>;
+  return <ul>{children}</ul>;
 }
 
 export default function Example4() {
